@@ -1,0 +1,33 @@
+scene.setBackgroundColor(10)
+effects.confetti.startScreenEffect()
+pause(3000)
+game.setDialogFrame(img`
+    ..bbbbbbbbbbbbbbbbbbbb..
+    .b11bb11bb11bb11bb11bbb.
+    bbb11bb11bb11bb11bb11b1b
+    bb1bbbbbbbbbbbbbbbbbb11b
+    b11bb11111111111111bb1bb
+    b1bb1111111111111111bbbb
+    bbbb1111111111111111bb1b
+    bb1b1111111111111111b11b
+    b11b1111111111111111b1bb
+    b1bb1111111111111111bbbb
+    bbbb1111111111111111bb1b
+    bb1b1111111111111111b11b
+    b11b1111111111111111b1bb
+    b1bb1111111111111111bbbb
+    bbbb1111111111111111bb1b
+    bb1b1111111111111111b11b
+    b11b1111111111111111b1bb
+    b1bb1111111111111111bbbb
+    bbbb1111111111111111bb1b
+    bb1bb11111111111111bb11b
+    b11bbbbbbbbbbbbbbbbbb1bb
+    b1b11bb11bb11bb11bb11bbb
+    .bbb11bb11bb11bb11bb11b.
+    ..bbbbbbbbbbbbbbbbbbbb..
+    `)
+game.setDialogTextColor(12)
+game.showLongText("Welcome to your awesome game!", DialogLayout.Center)
+effects.confetti.endScreenEffect()
+music.powerUp.playUntilDone()

@@ -1,0 +1,26 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="(WcZ_o85e|vG,K,;/o:_" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="8/@vhg+8cL9z1LuX]-t2"><value name="color"><shadow type="colorindexpicker" id="n$:)$.jsL@vxOLGJ|jLU"><field name="index">10</field></shadow></value><next><block type="particlesStartScreenAnimation" id="asTy)$:.6,5/JuSW0zWO"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><field name="effect">effects.confetti</field><value name="duration"><shadow type="timePicker" id="g1DVBdNRl2w(fliP6UdX"><field name="ms">500</field></shadow></value><next><block type="device_pause" id="|t3P?5~F8=6u,z5kj:SF"><value name="pause"><shadow type="timePicker" id="y/`.3wKdND_#=556^(W*"><field name="ms">3000</field></shadow></value><next><block type="game_dialog_set_frame" id="S]=i-T(^I;um[P`SPC$q"><value name="frame"><shadow type="dialog_image_picker" id="wUC1J7ZihaOU?s0-0=Nv"><field name="img">img`
+..bbbbbbbbbbbbbbbbbbbb..
+.b11bb11bb11bb11bb11bbb.
+bbb11bb11bb11bb11bb11b1b
+bb1bbbbbbbbbbbbbbbbbb11b
+b11bb11111111111111bb1bb
+b1bb1111111111111111bbbb
+bbbb1111111111111111bb1b
+bb1b1111111111111111b11b
+b11b1111111111111111b1bb
+b1bb1111111111111111bbbb
+bbbb1111111111111111bb1b
+bb1b1111111111111111b11b
+b11b1111111111111111b1bb
+b1bb1111111111111111bbbb
+bbbb1111111111111111bb1b
+bb1b1111111111111111b11b
+b11b1111111111111111b1bb
+b1bb1111111111111111bbbb
+bbbb1111111111111111bb1b
+bb1bb11111111111111bb11b
+b11bbbbbbbbbbbbbbbbbb1bb
+b1b11bb11bb11bb11bb11bbb
+.bbb11bb11bb11bb11bb11b.
+..bbbbbbbbbbbbbbbbbbbb..
+`</field><data>{"commentRefs":[],"fieldData":{"img":"wUC1J7ZihaOU?s0-0=Nv"}}</data></shadow></value><next><block type="game_dialog_set_text_color" id="ne0/a,zm.GyZ:`VEpov{"><value name="color"><shadow type="colorindexpicker" id="R5u~scx;96A_qX92]S9R"><field name="index">12</field></shadow></value><next><block type="game_show_long_text" id="FzBTj0J82:w6Eesg$gUT"><field name="layout">DialogLayout.Center</field><value name="str"><shadow type="text" id="ccoOE67_tRQ`B~ko_w!x"><field name="TEXT">Welcome to your awesome game!</field></shadow></value><next><block type="particlesEndScreenAnimation" id="5F!Gkkl|hjK;rB[FtS.G"><field name="effect">effects.confetti</field><next><block type="mixer_play_sound_until_done" id="}(q0$PLj~NZH$+U~ruX:"><field name="sound">music.powerUp</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
